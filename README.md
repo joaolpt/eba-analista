@@ -26,6 +26,7 @@ jornada-dados-eba/
 ├── 📁 python/                # Fundamentos da Linguagem
 │   ├── 📜 estruturas_dados/  # Listas, Dicionários, Tuplas
 │   └── 📜 logica/            # Loops, Condicionais e Funções
+|   └── 📜 exercicios/        # Exercícios
 │
 ├── 📁 data/                  # Armazenamento local de arquivos (Raw/Processed)
 ├── 📁 notebooks/             # Análises exploratórias e testes (Jupyter)
