@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# ---------------------------------
+# 💾 DADOS E ARQUIVOS DO PROJETO
+# ---------------------------------
+
+# Ignorar todo o conteúdo da pasta data
+data/*
+
+# ...MAS manter o arquivo .gitkeep (para a pasta não sumir no git)
+!data/.gitkeep
+
+# Ignorar bancos de dados locais (gerais)
+*.db
+*.sqlite3
+*.sqlite
+
+# Ignorar arquivos de dados grandes soltos (segurança extra)
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# Ignorar credenciais e variáveis de ambiente (CRÍTICO)
+.env
