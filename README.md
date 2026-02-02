@@ -2,6 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Em_Evolução-yellow?style=for-the-badge)
 
@@ -12,24 +13,22 @@ O objetivo deste projeto é documentar minha evolução técnica, saindo dos fun
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura de Estudos
 
-O repositório está organizado de forma modular para separar conceitos teóricos de aplicações práticas:
+O repositório está organizado por **tópicos de aprendizado**, onde cada pasta contém os notebooks de aula, anotações e scripts práticos:
 
 ```plaintext
 jornada-dados-eba/
 │
-├── 📁 engenharia_dados/      # Projetos Práticos e Pipelines (ETL/ELT)
-│   ├── 📂 pipeline_api/      # Scripts de Extração de APIs (ex: Bitcoin)
-│   └── 📂 pipeline_etl/      # Tratamento e Carga em Banco de Dados
+├── 📁 engenharia_dados/      # Projetos Práticos de Engenharia
+│   ├── 📂 pipeline_api/      # Scripts de Extração de APIs
+│   └── 📂 pipeline_etl/      # Tratamento e Carga de Dados
 │
 ├── 📁 python/                # Fundamentos da Linguagem
-│   ├── 📜 estruturas_dados/  # Listas, Dicionários, Tuplas
-│   └── 📜 logica/            # Loops, Condicionais e Funções
-|   └── 📜 exercicios/        # Exercícios
+│   ├── 📂 aulas_python_I/    # Notebooks de Lógica, Pandas e NumPy
+│   └── 📂 projeto-docker/    # Lab: Configuração de Ambiente Docker + Jupyter
 │
-├── 📁 data/                  # Armazenamento local de arquivos (Raw/Processed)
-├── 📁 notebooks/             # Análises exploratórias e testes (Jupyter)
+├── 📁 data/                  # Arquivos auxiliares (CSVs, JSONs) usados nas aulas
 │
 ├── 📄 requirements.txt       # Dependências do projeto
 └── 📄 README.md              # Documentação oficial
