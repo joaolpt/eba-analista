@@ -21,8 +21,8 @@ import sqlite3
 
 # --- CONFIGURAÇÕES E CONSTANTES ---
 # Centralizamos os nomes dos arquivos. Se mudar, altera só aqui.
-ARQUIVO_FONTE = "producao_alimentos.csv"
-NOME_BANCO = "eng_eba.db"
+ARQUIVO_FONTE = "C:/Users/João Luís/Desktop/eba-analista/data/producao_alimentos.csv"
+NOME_BANCO = "C:/Users/João Luís/Desktop/eba-analista/data/eng_eba.db"
 
 
 def verificar_tabela(banco_dados, tabela):
